@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Average",
+      "setup": "",
+      "run": "make run_test_average",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Factors",
+      "setup": "",
+      "run": "make run_test_factors",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Maximum",
+      "setup": "",
+      "run": "make run_test_max",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Minimum",
+      "setup": "",
+      "run": "make run_test_min",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Mode",
+      "setup": "",
+      "run": "make run_test_mode",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Overall",
+      "setup": "",
+      "run": "make run_test_all",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 0
+    }
+  ]
+}
