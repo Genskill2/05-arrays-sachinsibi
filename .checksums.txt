@@ -1,0 +1,5 @@
+4d08f60738fde3f7782ecdb4af36161b  test_average.c
+9cbf797253c866389b10412270457fa6  test_factors.c
+6c0baaeeafcbe094a2a7dc669efc8a2b  test_max.c
+9c41ed546aca6cf15aee4cdc88f845ab  test_min.c
+599806c4ce31ae3b5b4380fab48553ba  test_mode.c
