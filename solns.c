@@ -1,18 +1,7 @@
 /* Enter your solutions in this file */
-//max.c
 #include <stdio.h>
-#include <assert.h>
 
-
-int max(int [], int);
-
-int main(void) {
- int x[] = {9,5,6,10,2,-3,4};
- assert (max(x, 7) == 10);
- int y[] = {5};
- assert (max(y, 1) == 5);
- printf("Max: passed\n");
-}
+//max function
 int max(int a[], int b){
  int s = 0;
  if (b>1) {
@@ -33,22 +22,7 @@ int max(int a[], int b){
  return s;
 } 
 
-//min.c
-#include <stdio.h>
-#include <assert.h>
-
-
-int min(int [], int);
-
-int main(void) {
- int x[] = {9,5,6,10,2,-3,4};
- assert (min(x, 7) == -3);
-
- int y[] = {5};
- assert (min(y, 1) == 5);
- printf("Min: passed\n");
-}
-
+//min funtion
 int min(int a[],int b) {
  int d = 10;
  if (b>1) {
@@ -69,22 +43,7 @@ int min(int a[],int b) {
  return d;
 } 
 
-//average.c
-#include <stdio.h>
-#include <assert.h>
-
-
-float average(int [], int);
-
-int main(void) {
- int x[] = {9,5,6,10,2,-3,4};
- assert ((average(x, 7) - 4.7142) < 0.001);
-
- int y[] = {5};
- assert (average(y, 1) == 5.0);
- printf("Average: passed\n");
-}
-
+//average funtion
 float average(int a[], int b) {
  int s = 0;
  for (int i=0; i<b; i++) {
@@ -95,22 +54,7 @@ float average(int a[], int b) {
  return x;
 }
 
-//mode.c
-#include <stdio.h>
-#include <assert.h>
-
-
-int mode(int [], int);
-
-int main(void) {
- int x[] = {4,9,5,6,5,10,0,2,-3,-3,4,4};
- assert ((mode(x, 12) == 4));
-
- int y[] = {5};
- assert (mode(y, 1) == 5);
- printf("Mode: passed\n");
-}
-
+//mode funtion
 int mode(int a[], int b) {
  int c1 = 0;
  int c2 = 0;
@@ -164,32 +108,7 @@ int mode(int a[], int b) {
  return m;
 }
 
-//factors.c
-#include <stdio.h>
-#include <assert.h>
-#include<math.h>
-//use gcc factors.c -o factors -lm to explicitly link math.h
-
-int factors(int, int []);
-
-int main(void) {
-  int ret[100] = {0};
-  int count = factors(180, ret);
-  assert (count == 5);
-  assert (ret[0] == 2);
-  assert (ret[1] == 2);
-  assert (ret[2] == 3);
-  assert (ret[3] == 3);
-  assert (ret[4] == 5);
-
-
-  count = factors(143, ret);
-  assert (count == 2);
-  assert (ret[0] == 11);
-  assert (ret[1] == 13);
-  printf("Factors: passed\n");
-}
-
+//factors function
 int factors(int n, int a[]) {
   int i = 0;
   int c = 0;
